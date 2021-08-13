@@ -2,7 +2,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 
 const YouTube = require("simple-youtube-api");
-const youtube = new YouTube("AIzaSyC9wP9rVzyoeAt0EFNZmYmz0jPlpaCfhtg");
+const youtube = new YouTube("redacted");
 
 const parseDuration = (string) => {
   const units = string.split(":").reverse();
